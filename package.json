@@ -1,0 +1,14 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Weather app using Node.js",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app/index.js"
+  },
+  "author": "Ismail ZAHIR",
+  "license": "MIT",
+  "dependencies": {
+    
+  }
+}
