@@ -13,7 +13,7 @@
 <body>
   <div class="container py-3">
     <header>
-      <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+      <nav class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
         <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
           <span class="fs-4">Weather</span>
         </a>
@@ -23,7 +23,7 @@
             Ismail ZAHIR &nbsp;<i class="fa-brands fa-github"></i>
           </a>
         </nav>
-      </div>
+      </nav>
   
       <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
         <h1 class="display-4 fw-normal text-body-emphasis">Weather App</h1>
@@ -31,14 +31,16 @@
           This is a simple weather app that uses the OpenWeatherMap API to get the current weather for a given city.
         </p>
 
-        <p class="fs-5 text-body-secondary">
+        <p class="fs-6 text-body-secondary">
           Enter the city name and click on the "Get Weather" button to get the current weather.
         </p>
-        <form method="post" action="/weather" id="weatherForm" class="g-3 needs-validation d-flex justify-content-center" novalidate>
-          <div class="col-md-6">
-            <input type="text" id="city" name="city" class="form-control me-2" placeholder="City name" required>
+        <form method="post" action="/weather" id="weatherForm" class="row g-3 needs-validation d-flex justify-content-center" novalidate>
+          <div class="col-auto">
+            <input type="text" id="city" name="city" class="form-control" placeholder="City name" required>
           </div>
-          <button type="submit" class="btn btn-primary">Get Weather</button>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Get Weather</button>
+          </div>
         </form>
       </div>
     </header>
