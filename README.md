@@ -1,24 +1,30 @@
 # Weather App
 
-This is a simple weather app that uses the OpenWeatherMap API to get the current weather for a given city.
+This is a simple weather app that utilizes the OpenWeatherMap API to fetch and display the current weather conditions of any city you search for. It's designed to be user-friendly, providing immediate weather updates with just a city name input.
 
 ![Screenshot of the Weather App](public/screenshots/screencapture-localhost-3000-2024-02-27-16_49_15.png)
 
 ## Features
 
-- Search for a city and get the current weather
+- **City Search**: Easily search for any city across the globe and get real-time weather conditions.
+- **Responsive Design**: The app is fully responsive, ensuring a seamless experience on any device, whether it be a desktop, tablet, or smartphone.
+- **Weather Details**: Displays detailed weather information including temperature, humidity, wind speed, and more.
 
 ## Technologies
 
-- Node.js
-- Express
-- JavaScript
-- HTML
-- Bootstrap
-- Axios
-- OpenWeatherMap API
+This project is built using a combination of modern technologies to ensure high performance and scalability:
+
+- **Node.js**: A JavaScript runtime environment that executes JavaScript code outside of a web browser.
+- **Express**: A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+- **JavaScript**: The scripting language used to create dynamic content on the web.
+- **HTML**: The standard markup language for creating web pages and web applications.
+- **Bootstrap**: A front-end framework for developing responsive and mobile-first websites.
+- **Axios**: A promise-based HTTP client for the browser and Node.js, used for making HTTP requests to the OpenWeatherMap API.
+- **OpenWeatherMap API**: A service that provides weather data, including current weather, forecasts, and historical data to the developers of web services and mobile applications.
 
 ## Getting Started
+
+You can access the image on [Docker Hub](https://hub.docker.com/r/ismailza/weather-app) and run the application in a container.
 
 To get a local copy up and running follow these simple steps.
 
